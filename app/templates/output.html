@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Trip-a-Wiser</title>
+    
+    <!-- Bootstrap core CSS --> 
+    <link rel="stylesheet" href="../static/css/leaflet.css" />
+    <link href="http://fonts.googleapis.com/css?family=Dosis:300,400,500,600,700" rel="stylesheet" type="text/css">
+<link href="../static/css/default.css" rel="stylesheet" type="text/css" media="all">
+  <link rel="stylesheet" href="../static/css/leaflet.css" />
+    <!-- Custom styles for this template --> 
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+    <script src="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.js"></script>
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script 
+
+src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+ 
+ 
+
+   <div id="wrapper">
+	<div id="header">
+		<div id="logo">
+			<center> <h1><a href="index">Trip-a-Wiser: a tourist day planner</a></h1></center><br>
+                             <h2><a href="index">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; For San Francisco </a></h2>
+		</div>
+	 </div> <br>
+          <div id="page">
+		  
+			<div id="content">
+ 
+    
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="static/js/bootstrap.min.js"></script>
+
+    <!-- /.container-->
+
+    
+
+
+
+      
+        <h3> <center>Your Itinerary </center></h3>  
+   
+          Based on your interest in {{user_features}}, this is our recommended intinerary for you. <br><br>
+          <script> 
+         var tmp10 = "{{attraction_dur}}"; var dur=tmp10.split(",") 
+         var tmp11 = "{{attraction_start}}"; var atstart=tmp11.split(",") 
+          </script> 
+
+         
+         <script> var tmp = "{{attraction_list}}"; var res=tmp.split(",") </script>
+         <script> var tmp4 = "{{attraction_desc}}"; var resdesc=tmp4.split(',') 
+          
+           
+         </script>
+     <br>
+         <script> 
+          var tmp1 = "{{allmypics}}"; var respic=tmp1.split(",") 
+          
+           
+          for (i = 1; i < respic.length; i++) { 
+                 respic[i] = respic[i].substring(1) }
+         </script>
+
+         <script> 
+         
+         for (i = 0; i < respic.length; i++) {
+            if (i > 0){ 
+                   
+               document.write("<b> Stop " + i + " - "+ atstart[i-1]+ " -" + res[i] + " (" + dur[i-1].replace(/\s/g, '') + " minutes) </b> <br>") 
+               document.write(resdesc[i-1]+ "<br><br>")
+               document.write("<center><img src=\"../static/images/" + respic[i] + ".jpg"+ "\" width=\"300\" alt=\"previous\" title=\"Previous\" border=\"0\"></center>" +  " " )
+                 if (i < respic.length-1){
+document.write("<center><img src=\"../static/images/next1.png"+ "\" width=\"80\" alt=\"previous\" title=\"Previous\" border=\"0\"></center>" +  "<br> " )
+}
+                 }
+            
+          } 
+
+
+         </script>
+	  
+ 
+
+         
+          
+
+</div> 
+
+<div id="sidebar">  
+
+
+<div id="map"></div>  
+
+<!-- var ppolyline_options = {color: 'black'};
+                                    var polygon = L.polyline([[37.8079996, -122.41],[37.8079996, -122.42]],ppolyline_options).addTo(map) -->
+  
+	  <script>
+          var tmp = "{{mapcenter}}"; var resc = tmp.split(",");
+	  var map = L.map('map').setView([resc[0],resc[1]], 11);  
+           
+        L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
+    attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
+    maxZoom: 15,
+    id: 'mapbox.streets',
+    accessToken: 'pk.eyJ1Ijoic21hcmdzIiwiYSI6ImNpanZ4MG14bTBjcnp1MGx6dHdiNW0wYjgifQ.RxvgVaiOncBk2buSsKSj2w'
+}).addTo(map); 
+   
+            var plinepath_js = {{plinepath}};
+            var ppolyline_options = {color: 'black'};
+              L.polyline(plinepath_js,ppolyline_options).addTo(map);
+
+   var tmp = "{{fin_latlons}}"; var res2=tmp.split(",");
+                             res2[0] = res2[0].substring(1);
+                              var url = 'https://www.google.com/maps/dir/';
+                            for (i = 1; i < res2.length/2; i++) { 
+                             
+                                 L.marker([res2[2*i-2], res2[2*i-1]]).addTo(map).bindPopup(res[i-1])
+
+
+                                  if (i == 1){
+                                 var url = url.concat('(',res2[2*i-2],',',res2[2*i-1].substring(1),')','/') }
+                                    else{
+                                   var url = url.concat('(',res2[2*i-2].substring(1),',',res2[2*i-1].substring(1),')','/') } 
+}                            target="_blank"
+       document.write("<br> <a href="+ url +" target=\"_blank\">Directions on Google Maps</a>")</script> <br> <br><br><br>
+                 
+      <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+      <script src="static/js/bootstrap.min.js"></script>
+
+ 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+
+
+<!--<script>  var tm = "{{latmat}}"; tm=tm.split(","); document.write(tm) </script> -->
+
+
+</div>
+
+</div> </div>  
+
+  </body>
+</html>
+
+
+
+
+
+
+

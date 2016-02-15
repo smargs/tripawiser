@@ -1,0 +1,2 @@
+   document.write("<img src=\"{{ url_for('static', filename='images/'+ mypic)}}\">") 
+             document.write("<img src=\"../static/css/images/Alcatraz.jpg\" height=\"200\" alt=\"previous\" title=\"Previous\" border=\"0\">") 

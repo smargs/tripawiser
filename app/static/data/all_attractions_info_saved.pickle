@@ -1,0 +1,1285 @@
+(lp0
+(dp1
+S'EXIT_Theatre'
+p2
+(lp3
+sS'Phoenix_Gallery'
+p4
+(lp5
+sS'Grand_Pacheco_Stairway'
+p6
+(lp7
+sS'Atelier_Dore'
+p8
+(lp9
+sS'Buddha_s_Universal_Church'
+p10
+(lp11
+sS'San_Francisco_Federal_Building'
+p12
+(lp13
+sS'Welcome_Limousine_Service'
+p14
+(lp15
+S'Recommended length of visit: 2-3 hours '
+p16
+asS'Vedanta_Society_of_Northern_California'
+p17
+(lp18
+S'Recommended length of visit: &lt;1 hour '
+p19
+asS'Stein_Family_Wines'
+p20
+(lp21
+sS'Telephone_Pioneers_Communication_Museum'
+p22
+(lp23
+sS'Defenestration_Building'
+p24
+(lp25
+sS'Mashouf_Performing_Arts_Center'
+p26
+(lp27
+sS'12_Gallagher_Lane'
+p28
+(lp29
+sS'BAPS_Shri_Swaminarayan_Mandir'
+p30
+(lp31
+sS'CLASH_Scavenger_Hunts'
+p32
+(lp33
+sS'Marina_Veronica_Art_Fashion_Tours'
+p34
+(lp35
+sS'Motorcycle_Rides_with_Bobby'
+p36
+(lp37
+S'Recommended length of visit: More than 3 hours '
+p38
+asS'Art_Attack_SF'
+p39
+(lp40
+S'Recommended length of visit: 1-2 hours '
+p41
+asS'381_G_Gallery'
+p42
+(lp43
+sS'Nourse_Theatre'
+p44
+(lp45
+sS'African_American_Art_Culture_Complex'
+p46
+(lp47
+S'Recommended length of visit: &lt;1 hour '
+p48
+asS'Eleonore_Austerer_Gallery'
+p49
+(lp50
+sS'Golden_Gate_Jeep_Tours'
+p51
+(lp52
+sS'San_Francisco_Pride'
+p53
+(lp54
+sS'ABC_s_7Live_Voice_Box'
+p55
+(lp56
+sS'Concourse_Exhibition_Center'
+p57
+(lp58
+sS'The_Distilled_Man'
+p59
+(lp60
+sS'Intersection_for_the_Arts'
+p61
+(lp62
+sS'New_United_States_Mint'
+p63
+(lp64
+sS'Shop_and_the_City_Tour'
+p65
+(lp66
+sS'McLellan_Botanicals'
+p67
+(lp68
+sS'Chloe_Gallery'
+p69
+(lp70
+sS'Greater_Farallones_National_Marine_Sanctuary_Visitor_Center-San_Francisco_Californi.htm'
+p71
+(lp72
+sS'James_R_Browning_United_States_Courthouse'
+p73
+(lp74
+S'Recommended length of visit: 1-2 hours '
+p75
+asS'Mohandas_K_Gandhi_Gandhi_Statue'
+p76
+(lp77
+S'Recommended length of visit: &lt;1 hour '
+p78
+asS'San_Francisco_African_American_Historical_Cultural_Society'
+p79
+(lp80
+sS'Fouladi_Projects'
+p81
+(lp82
+sS'Glamour_Girl_Shopping_Tours'
+p83
+(lp84
+S'Recommended length of visit: More than 3 hours '
+p85
+asS'Outside_Lands'
+p86
+(lp87
+sS'Fraenkel_Gallery'
+p88
+(lp89
+sS'John_McLaren_Park'
+p90
+(lp91
+sS'Hua_Zang_Si'
+p92
+(lp93
+sS'Bullock_and_Jones'
+p94
+(lp95
+sS'Greater_Farallones_National_Marine_Sanctuary_Visitor_Center-San_Francisco_Californi.html#REVIEW'
+p96
+(lp97
+sS'Hardly_Strictly_Bluegrass_Festival'
+p98
+(lp99
+sS'Upper_Market'
+p100
+(lp101
+sS'Gallery_925'
+p102
+(lp103
+sS'Walter_S_Johnson_Park'
+p104
+(lp105
+sS'Museum_of_Craft_and_Folk_Art'
+p106
+(lp107
+sS'Maxwell_Galleries'
+p108
+(lp109
+sS'Society_of_California_Pioneers'
+p110
+(lp111
+sS'Watson_Adventures_Scavenger_Hunts_San_Francisco'
+p112
+(lp113
+sS'Labyrinth_of_Cultures'
+p114
+(lp115
+sS'Gallery_of_Ethnic_Art'
+p116
+(lp117
+sS'Saturn_Steps'
+p118
+(lp119
+sS'Timbuk2_Factory_Store'
+p120
+(lp121
+S'Recommended length of visit: &lt;1 hour '
+p122
+asS'Hang'
+p123
+(lp124
+sS'Grand_Central_Station_Antiques'
+p125
+(lp126
+sS'Meyerovich_Gallery'
+p127
+(lp128
+sS'Allyne_Park'
+p129
+(lp130
+sS'Ecology_Trail'
+p131
+(lp132
+sS'Wolf_Ridge_Loop'
+p133
+(lp134
+sS'AlSabeel_Noor_Al_Islam_Mosque'
+p135
+(lp136
+sS'Russian_Center_of_San_Francisco'
+p137
+(lp138
+sS'Finding_San_Francisco_A_Scavenger_Tour'
+p139
+(lp140
+sS'Coastal_Walkers'
+p141
+(lp142
+sS'Gallery_444'
+p143
+(lp144
+S'Recommended length of visit: &lt;1 hour '
+p145
+asS'Upper_Fillmore'
+p146
+(lp147
+sS'Redwood_Empire_Association'
+p148
+(lp149
+sa(dp150
+g2
+(lp151
+S'Theaters'
+p152
+aS'Theater and Concerts'
+p153
+asg4
+(lp154
+S'Art Galleries'
+p155
+aS'Shopping'
+p156
+aS'Museums'
+p157
+asg6
+(lp158
+S'Points of Interest and Landmarks'
+p159
+aS'Historic Walking Areas'
+p160
+aS'Sights and Landmarks'
+p161
+asg8
+(lp162
+S'Art Galleries'
+p163
+aS'Museums'
+p164
+aS'Shopping'
+p165
+asg10
+(lp166
+S'Religious Sites'
+p167
+aS'Sights and Landmarks'
+p168
+asg12
+(lp169
+S'Government Buildings'
+p170
+aS'Sights and Landmarks'
+p171
+asg14
+(lp172
+S'Bus Services'
+p173
+aS'Transportation'
+p174
+asg17
+(lp175
+S'Religious Sites'
+p176
+aS'Sights and Landmarks'
+p177
+asg20
+(lp178
+S'Wineries and Vineyards'
+p179
+aS'Food and Drink'
+p180
+asg22
+(lp181
+S'Specialty Museums'
+p182
+aS'History Museums'
+p183
+aS'Museums'
+p184
+asg24
+(lp185
+S'Points of Interest and Landmarks'
+p186
+aS'Sights and Landmarks'
+p187
+asg26
+(lp188
+S'Theaters'
+p189
+aS'Theater and Concerts'
+p190
+asg28
+(lp191
+S'Art Galleries'
+p192
+aS'Museums'
+p193
+aS'Shopping'
+p194
+asg30
+(lp195
+S'Churches and Cathedrals'
+p196
+aS'Sights and Landmarks'
+p197
+asg32
+(lp198
+S'Scavenger Hunts'
+p199
+aS'Fun and Games'
+p200
+asg34
+(lp201
+S'Fashion Shows and Tours'
+p202
+aS'Tours and Activities'
+p203
+aS'Shopping'
+p204
+asg36
+(lp205
+S'City Tours'
+p206
+aS'Motorcycle Tours'
+p207
+aS'Private Tours'
+p208
+aS'Vespa, Scooter and Moped Tours'
+p209
+aS'Tours and Activities'
+p210
+asg39
+(lp211
+S'Art Galleries'
+p212
+aS'Shopping'
+p213
+aS'Museums'
+p214
+asg42
+(lp215
+S'Art Galleries'
+p216
+aS'Museums'
+p217
+aS'Shopping'
+p218
+asg44
+(lp219
+S'Theaters'
+p220
+aS'Theater and Concerts'
+p221
+asg46
+(lp222
+S'Specialty Museums'
+p223
+aS'Museums'
+p224
+asg49
+(lp225
+S'Art Galleries'
+p226
+aS'Shopping'
+p227
+aS'Museums'
+p228
+asg51
+(lp229
+S'4WD, ATV and Off-Road Tours'
+p230
+aS'Tours and Activities'
+p231
+aS'Outdoor Activities'
+p232
+asg53
+(lp233
+S'Cultural Events'
+p234
+aS'Events'
+p235
+asg55
+(lp236
+S'Theaters'
+p237
+aS'Theater and Concerts'
+p238
+asg57
+(lp239
+S'Convention Centers'
+p240
+aS'Traveler Resources'
+p241
+asg59
+(lp242
+S'Educational sites'
+p243
+aS'Sights and Landmarks'
+p244
+asg61
+(lp245
+S'Art Museums'
+p246
+aS'Museums'
+p247
+asg63
+(lp248
+S'Architectural Buildings'
+p249
+aS'Government Buildings'
+p250
+aS'Sights and Landmarks'
+p251
+asg65
+(lp252
+S'Shopping Tours'
+p253
+aS'Tours and Activities'
+p254
+aS'Shopping'
+p255
+asg67
+(lp256
+S'Gardens'
+p257
+aS'Nature and Parks'
+p258
+asg69
+(lp259
+S'Art Galleries'
+p260
+aS'Shopping'
+p261
+aS'Museums'
+p262
+asg71
+(lp263
+S'Visitor Centers'
+p264
+aS'Traveler Resources'
+p265
+asg73
+(lp266
+S'Points of Interest and Landmarks'
+p267
+aS'Historic Sites'
+p268
+aS'Sights and Landmarks'
+p269
+asg76
+(lp270
+S'Monuments and Statues'
+p271
+aS'Sights and Landmarks'
+p272
+asg79
+(lp273
+S'History Museums'
+p274
+aS'Specialty Museums'
+p275
+aS'Museums'
+p276
+asg81
+(lp277
+S'Art Galleries'
+p278
+aS'Museums'
+p279
+aS'Shopping'
+p280
+asg83
+(lp281
+S'Shopping'
+p282
+aS'Tours and Activities'
+p283
+asg86
+(lp284
+S'Music Festivals'
+p285
+aS'Events'
+p286
+asg88
+(lp287
+S'Art Galleries'
+p288
+aS'Shopping'
+p289
+aS'Museums'
+p290
+asg90
+(lp291
+S'Nature and Parks'
+p292
+asg92
+(lp293
+S'Religious Sites'
+p294
+aS'Sights and Landmarks'
+p295
+asg94
+(lp296
+S'Department Stores'
+p297
+aS'Shopping'
+p298
+asg96
+(lp299
+S'Visitor Centers'
+p300
+aS'Traveler Resources'
+p301
+asg98
+(lp302
+S'Music Festivals'
+p303
+aS'Events'
+p304
+asg100
+(lp305
+S'Neighborhoods'
+p306
+aS'Sights and Landmarks'
+p307
+asg102
+(lp308
+S'Points of Interest and Landmarks'
+p309
+aS'Sights and Landmarks'
+p310
+asg104
+(lp311
+S'Nature and Parks'
+p312
+asg106
+(lp313
+S'Art Museums'
+p314
+aS'Specialty Museums'
+p315
+aS'Museums'
+p316
+asg108
+(lp317
+S'Art Galleries'
+p318
+aS'Shopping'
+p319
+aS'Museums'
+p320
+asg110
+(lp321
+S'History Museums'
+p322
+aS'Art Museums'
+p323
+aS'Museums'
+p324
+asg112
+(lp325
+S'Scavenger Hunts'
+p326
+aS'Fun and Games'
+p327
+asg114
+(lp328
+S'Specialty Museums'
+p329
+aS'Museums'
+p330
+asg116
+(lp331
+S'Art Galleries'
+p332
+aS'Museums'
+p333
+aS'Shopping'
+p334
+asg118
+(lp335
+S'Historic Walking Areas'
+p336
+aS'Sights and Landmarks'
+p337
+asg120
+(lp338
+S'Factory Outlets'
+p339
+aS'Shopping'
+p340
+asg123
+(lp341
+S'Art Galleries'
+p342
+aS'Shopping'
+p343
+aS'Museums'
+p344
+asg125
+(lp345
+S'Antique Shops'
+p346
+aS'Shopping'
+p347
+asg127
+(lp348
+S'Art Galleries'
+p349
+aS'Museums'
+p350
+aS'Shopping'
+p351
+asg129
+(lp352
+S'Nature and Parks'
+p353
+asg131
+(lp354
+S'Hiking Trails'
+p355
+aS'Outdoor Activities'
+p356
+aS'Nature and Parks'
+p357
+asg133
+(lp358
+S'Jogging Paths and Tracks'
+p359
+aS'Hiking Trails'
+p360
+aS'Nature and Parks'
+p361
+aS'Outdoor Activities'
+p362
+asg135
+(lp363
+S'Religious Sites'
+p364
+aS'Sights and Landmarks'
+p365
+asg137
+(lp366
+S'History Museums'
+p367
+aS'Specialty Museums'
+p368
+aS'Museums'
+p369
+asg139
+(lp370
+S'Scavenger Hunts'
+p371
+aS'Fun and Games'
+p372
+asg141
+(lp373
+S'Private Tours'
+p374
+aS'Photography Tours'
+p375
+aS'Walking Tours'
+p376
+aS'Nature and Wildlife Tours'
+p377
+aS'Outdoor Activities'
+p378
+aS'Tours and Activities'
+p379
+asg143
+(lp380
+S'Art Galleries'
+p381
+aS'Shopping'
+p382
+aS'Museums'
+p383
+asg146
+(lp384
+S'Neighborhoods'
+p385
+aS'Sights and Landmarks'
+p386
+asg148
+(lp387
+S'Visitor Centers'
+p388
+aS'Traveler Resources'
+p389
+asa(dp390
+g2
+S'156 Eddy StSan Francisco CA 94102'
+p391
+sg4
+S'3391 Sacramento StSan Francisco CA 94118'
+p392
+sg6
+S'Between Castenada Ave and Magellan AveSan Francisco CA 94116'
+p393
+sg8
+S'771 Bush St CA </spa'
+p394
+sg10
+S'720 Washington StSan Francisco CA 94108'
+p395
+sg12
+S'90 7th StreetSan Francisco CA 94103'
+p396
+sg14
+S'etAddress"> CA </spa'
+p397
+sg17
+S'2323 Vallejo StreetSan Francisco</spa CA 94123'
+p398
+sg20
+S'751 13th StreetSan Francisco CA 94130'
+p399
+sg22
+S'140 New Montgomery St. CA </spa'
+p400
+sg24
+S'Sixth and Howard Sts. CA </spa'
+p401
+sg26
+S'1600 Holloway AveSan Francisco CA 94132'
+p402
+sg28
+S'12 Gallagher LaneSan Francisco CA 94103'
+p403
+sg30
+S'950 Avalon Avenue CA </spa'
+p404
+sg32
+S'2208 Mission St.San Francisco CA 94110'
+p405
+sg34
+S'2410 Chestnut Street, #7San Francisco CA 94132'
+p406
+sg36
+S'2055 Lombard StSan Francisco CA 94123'
+p407
+sg39
+S'2722A Hyde StreetSan Francisco CA 94109'
+p408
+sg42
+S'381 Guerrero St.San Francisco CA 94103'
+p409
+sg44
+S'275 Hayes StreetSan Francisco CA 94102'
+p410
+sg46
+S'762 Fulton StreetSan Francisco CA 94102'
+p411
+sg49
+S'540 Sutter St CA </spa'
+p412
+sg51
+S'350 Bay StreetSan Francisco CA 94133'
+p413
+sg53
+S'Market Street CA </spa'
+p414
+sg55
+S'900 Front Street CA </spa'
+p415
+sg57
+S'635 8th St.San Francisco CA 94103'
+p416
+sg59
+S'2261 Market StSan Francisco CA 94114'
+p417
+sg61
+S'446 Valencia StreetSan Francisco CA 94103'
+p418
+sg63
+S'155 Hermann StSan Francisco CA 94103'
+p419
+sg65
+S'323 Geary StreetSan Francisco CA 94102'
+p420
+sg67
+S'688 Brannan St.San Francisco CA 94107'
+p421
+sg69
+S'645 Beach StreetSan Francisco CA 94109'
+p422
+sg71
+S'991 Marine DriveSan Francisco CA 94129'
+p423
+sg73
+S'95 7th StreetSan Francisco CA 94103'
+p424
+sg76
+S'1 Ferry BuildingSan Francisco CA 94199'
+p425
+sg79
+S'Fort Mason Center, Building CSan Francisco CA 94123'
+p426
+sg81
+S'1803 Market StreetSan Francisco CA 94103'
+p427
+sg83
+S'etAddress"> CA </spa'
+p428
+sg86
+S'501 Stanyan StSan Francisco CA 94117'
+p429
+sg88
+S'49 Geary StSan Francisco CA 94108'
+p430
+sg90
+S'Mansell Street at Shelley Street CA </spa'
+p431
+sg92
+S'3134 22nd StreetSan Francisco CA 94110'
+p432
+sg94
+S'272 Post Street at Union Square CA </spa'
+p433
+sg96
+S'991 Marine DriveSan Francisco CA 94129'
+p434
+sg98
+S'501 Stanyan StSan Francisco CA 94117'
+p435
+sg100
+S'etAddress"> CA </spa'
+p436
+sg102
+S'210 Post Street #901San Francisco</s CA CA 94'
+p437
+sg104
+S'Baker Street CA </spa'
+p438
+sg106
+S'51 Yerba Buena LaneSan Francisco CA 94103'
+p439
+sg108
+S'559 Sutter St CA </spa'
+p440
+sg110
+S'300 Fourth StreetSan Francisco</spa CA 94107'
+p441
+sg112
+S'etAddress">San Francisco CA 94118'
+p442
+sg114
+S'934 Brannan StSan Francisco CA 94103'
+p443
+sg116
+S'245 Columbus Ave. CA </spa'
+p444
+sg118
+S'Ord Street CA </spa'
+p445
+sg120
+S'587 Shotwell StreetSan Francisco CA 94110'
+p446
+sg123
+S'556 Sutter StSan Francisco CA 94102'
+p447
+sg125
+S'353 9th StreetSan Francisco CA 94103'
+p448
+sg127
+S'251 Post StSan Francisco CA 94108'
+p449
+sg129
+S'2609 Gough StreetSan Francisco CA 94123'
+p450
+sg131
+S'etAddress"> CA </spa'
+p451
+sg133
+S'etAddress"> CA </spa'
+p452
+sg135
+S'AlSabeel Masjid Noor Al-Islam CA </spa'
+p453
+sg137
+S'2450 Sutter StreetSan Francisco< CA 94115'
+p454
+sg139
+S'16 Whitney StSan Francisco CA 94131'
+p455
+sg141
+S'etAddress"> CA </spa'
+p456
+sg143
+S'444 Post StreetSan Francisco CA 94102'
+p457
+sg146
+S'etAddress"> CA </spa'
+p458
+sg148
+S'2801 Leavenworth StSan Francisco CA 94133'
+p459
+sa(dp460
+g120
+I1000
+sg51
+I700
+sg30
+I700
+sg123
+I1000
+sg127
+I1030
+sg125
+I1100
+sa(dp461
+g51
+I1800
+sg123
+I1800
+sg125
+I1900
+sg127
+I1830
+sg120
+I1800
+sa(dp462
+g2
+S'5 '
+p463
+sg4
+S'4.5 '
+p464
+sg6
+S'4.5 '
+p465
+sg8
+S'4.5 '
+p466
+sg10
+S'4.5 '
+p467
+sg12
+S'2.0 '
+p468
+sg14
+S'4.5 '
+p469
+sg17
+S'4.5 '
+p470
+sg20
+S'5 '
+p471
+sg22
+S'4.5 '
+p472
+sg24
+S'2.5 '
+p473
+sg26
+S'5 '
+p474
+sg28
+S'3.0 '
+p475
+sg30
+S'4.5 '
+p476
+sg32
+S'5 '
+p477
+sg34
+S'5 '
+p478
+sg36
+S'5 '
+p479
+sg39
+S'4.5 '
+p480
+sg42
+S'4.5 '
+p481
+sg44
+S'2.5 '
+p482
+sg46
+S'4.5 '
+p483
+sg49
+S'4.5 '
+p484
+sg51
+S'2.5 '
+p485
+sg53
+S'5 '
+p486
+sg55
+S'5 '
+p487
+sg57
+S'4.5 '
+p488
+sg59
+S'4.5 '
+p489
+sg61
+S'4.5 '
+p490
+sg63
+S'2.0 '
+p491
+sg65
+S'4.0 '
+p492
+sg67
+S'4.5 '
+p493
+sg69
+S'4.5 '
+p494
+sg71
+S'2.0 '
+p495
+sg73
+S'4.5 '
+p496
+sg76
+S'2.5 '
+p497
+sg79
+S'4.5 '
+p498
+sg81
+S'4.5 '
+p499
+sg86
+S'5 '
+p500
+sg88
+S'4.5 '
+p501
+sg90
+S'3.0 '
+p502
+sg92
+S'4.5 '
+p503
+sg94
+S'4.5 '
+p504
+sg96
+S'2.0 '
+p505
+sg98
+S'5 '
+p506
+sg100
+S'4.5 '
+p507
+sg102
+S'4.5 '
+p508
+sg104
+S'4.5 '
+p509
+sg106
+S'1.5 '
+p510
+sg108
+S'4.5 '
+p511
+sg110
+S'4.5 '
+p512
+sg112
+S'5 '
+p513
+sg114
+S'4.5 '
+p514
+sg116
+S'4.5 '
+p515
+sg118
+S'4.5 '
+p516
+sg120
+S'4.5 '
+p517
+sg123
+S'4.5 '
+p518
+sg125
+S'4.5 '
+p519
+sg127
+S'4.5 '
+p520
+sg129
+S'4.5 '
+p521
+sg131
+S'5 '
+p522
+sg133
+S'5 '
+p523
+sg135
+S'4.5 '
+p524
+sg137
+S'4.5 '
+p525
+sg139
+S'5 '
+p526
+sg141
+S'5.0 '
+p527
+sg143
+S'4.5 '
+p528
+sg146
+S'4.5 '
+p529
+sg148
+S'4.5 '
+p530
+sa(dp531
+g2
+I0
+sg4
+I0
+sg6
+I0
+sg8
+I0
+sg10
+I0
+sg12
+I3
+sg14
+I0
+sg17
+I0
+sg20
+I0
+sg22
+I0
+sg24
+I5
+sg26
+I0
+sg28
+I2
+sg30
+I0
+sg32
+I0
+sg34
+I0
+sg36
+I0
+sg39
+I0
+sg42
+I0
+sg44
+I2
+sg46
+I0
+sg49
+I0
+sg51
+I3
+sg53
+I0
+sg55
+I0
+sg57
+I0
+sg59
+I0
+sg61
+I0
+sg63
+I0
+sg65
+I2
+sg67
+I0
+sg69
+I0
+sg71
+I2
+sg73
+I0
+sg76
+I2
+sg79
+I0
+sg81
+I0
+sg83
+I0
+sg86
+I0
+sg88
+I0
+sg90
+I3
+sg92
+I0
+sg94
+I0
+sg96
+I2
+sg98
+I0
+sg100
+I0
+sg102
+I0
+sg104
+I0
+sg106
+I6
+sg108
+I0
+sg110
+I0
+sg112
+I0
+sg114
+I0
+sg116
+I0
+sg118
+I0
+sg120
+I0
+sg123
+I0
+sg125
+I0
+sg127
+I0
+sg129
+I0
+sg131
+I0
+sg133
+I0
+sg135
+I0
+sg137
+I0
+sg139
+I0
+sg141
+I0
+sg143
+I0
+sg146
+I0
+sg148
+I0
+sa.

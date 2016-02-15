@@ -1,0 +1,124 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!-- saved from url=(0038)http://engineering.ucsb.edu/~agharkar/ -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>Trip-A-Wiser</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+<meta name="keywords" content="">
+<meta name="description" content="">
+<link href="http://fonts.googleapis.com/css?family=Dosis:300,400,500,600,700" rel="stylesheet" type="text/css">
+<link href="../static/css/default.css" rel="stylesheet" type="text/css" media="all">
+<link rel="stylesheet" href="../static/css/leaflet.css" />
+<!--[if IE 6]>
+<link href="default_ie6.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+
+ <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+<script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+
+</head>
+<body>
+<div id="wrapper">
+	<div id="header">
+		<div id="logo">
+			<center> <h1><a href="input.html">Trip-a-Wiser: a tourist day planner</a></h1></center><br>
+                             <h2><a href="input.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; For San Francisco </a></h2>
+		</div>
+		 
+	</div>
+	<div id="page">
+		 
+		 
+			<div id="tbox1">
+           <!--  The form starts here         -->
+
+   <center>
+      <form  action="/output" method="GET">
+        <div class="form-group">
+          <label for="ID">Enter Home/Hotel Address </label>
+          <input type="text" id="ID" name='ID' placeholder="e.g. Marriott Fisherman's Wharf San Francisco">
+        </div> <br> <br> 
+
+            <!-- <div class="form-group">
+ 		<label for="pnum"> How familiar are you with the city (1 to 10)? </label>
+          <input type="text" id="pnum" name='pnum' placeholder="1">
+        </div> -->
+
+
+
+
+        <div class="form-group">
+          <label for="ID1">Hours available (starting 9 am)</label> 
+          <input type="text" id="ID1" name='ID1' placeholder="e.g. 8 ">
+        </div>
+            <br> 
+   
+ <div>
+<div id="smallcol"> <center>
+         <!-- <button id="int_one" name = "int_one" value="1" class="btn btn-default btn-lg" > I Like History Museums</button> -->
+ 
+ <div id="ck-button"><label><input type="checkbox" id="int_1" name='int_1'><span>guided tours</span></label></div>
+ <div id="ck-button"><label><input type="checkbox" id="int_2" name='int_2'><span>adventures</span></label></div>
+ <div id="ck-button"><label><input type="checkbox" id="int_3" name='int_3'><span>outdoor activities</span></label></div>
+ <div id="ck-button"><label><input type="checkbox" id="int_4" name='int_4'><span> kid-friendly </span></label></div>
+  <div id="ck-button"><label><input type="checkbox" id="int_7" name='int_7'><span> art </span></label></div>
+
+ <br><br><br> <br>
+ <div id="ck-button"><label><input type="checkbox" id="int_6" name='int_6'><span> history</span></label></div>
+<div id="ck-button"><label><input type="checkbox" id="int_5" name='int_5'><span>architecture</span></label></div>
+
+ <div id="ck-button"><label><input type="checkbox" id="int_8" name='int_8'><span> shopping </span></label></div>
+ <div id="ck-button"><label><input type="checkbox" id="int_9" name='int_9'><span>nature</span></label></div>
+ <div id="ck-button"><label><input type="checkbox" id="int_10" name='int_10'><span>beaches</span></label></div><br><br><br><br>
+ <div id="ck-button"><label><input type="checkbox" id="int_11" name='int_11'><span>science</span></label></div>
+ <div id="ck-button"><label><input type="checkbox" id="int_12" name='int_12'><span>views</span></label></div>
+ <div id="ck-button"><label><input type="checkbox" id="int_12" name='int_13'><span>culture</span></label></div>
+ <div id="ck-button"><label><input type="checkbox" id="int_14" name='int_14'><span>food and drink</span></label></div>
+ <div id="ck-button"><label><input type="checkbox" id="int_15" name='int_15'><span>theatre and music</span></label></div>
+ </center>
+</div> 
+ </div> 
+<br><br> <br> <br> <br><br>
+      <div>
+          <button type="submit" class="btn btn-default btn-lg">Plan your Day!</button>
+      
+        </div>
+      </form>   </center>
+ 
+		
+			 
+
+ 
+ 
+<div id="three-column"></div>
+		 		 
+		 		 
+			</div>
+
+
+		</div>
+
+ 
+	<div id="section">
+		<div id="content">
+
+
+ 
+
+</div>
+</div>	
+ 
+ 
+ 
+
+	 
+</div>
+
+
+</body></html>
