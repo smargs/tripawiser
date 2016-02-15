@@ -4,6 +4,10 @@ import string
 import pickle
 import json, urllib, urllib2
 
+####################################################################
+## this file gets information on all attractions in san francisco ##
+####################################################################
+
 ## getting list of attractions ##
 #################################
 baseurl = 'http://www.tripadvisor.com/'
@@ -51,7 +55,8 @@ for k in range(attractions_num):
     attraction_title[attraction_names[k]] = a13
 
     
-    
+    ## attraction rating #########
+    ##############################
     a12 = soup.find_all('div',class_='rs rating')
     
     try:
@@ -61,7 +66,8 @@ for k in range(attractions_num):
         print 'rating for' ,attraction_names[k], 'not recorded' 
     
     
-    
+    ## attraction review count ####
+    ###############################
     try:
         a12 = str(a12).split("reviewCount")[1]
         a12 = a12.split('>')[1]; a12 = a12.split('</')[0]; 
@@ -74,7 +80,8 @@ for k in range(attractions_num):
     
     
     
-    
+    ## attraction name and open and close times ##
+    ##############################################
     try:
         a13 = soup.find_all('div',class_='times'); 
         if len(a13) > 0:
@@ -140,7 +147,8 @@ for k in range(attractions_num):
     attraction_type[attraction_names[k]] = atype
     attraction_info[attraction_names[k]] = itype 
     
-    
+    ## get listing details ##
+    #########################
     try:
         s = soup.find_all('div',class_='listing_details')
         s = (str(s).split('<p>')[1]).split('</p>')[0]
@@ -261,6 +269,8 @@ def get_distance_naive(p1,p2):
     c = 2 * math.atan2( math.sqrt(a), math.sqrt(1-a) ) ; d = R * c 
     return d*60/30
 
+## create distance matrix for attractions ##
+## stores pairwise distances ################
 attraction_distmat = np.zeros((len(attraction_key),len(attraction_key)));
 done = np.zeros((len(attraction_key),len(attraction_key)));
 for i1,i2 in enumerate(attraction_key):
@@ -277,6 +287,8 @@ for i1,i2 in enumerate(attraction_key):
             except:
                 x = 0;
  
+## save everything ################################################
+###################################################################
 with open(homeurl+'all_attractions_info.pickle', 'w') as f:
     pickle.dump([attraction_info,attraction_title,attraction_time,attraction_type,attraction_typer,attraction_address,attraction_latlon,attraction_key,attraction_distmat,attraction_opentime,attraction_closetime,attraction_ratings,attraction_review_count,attraction_description], f)
       

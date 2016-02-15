@@ -3,8 +3,6 @@
 
 def main_fun(user_features,maxtime,home_latlon):
 
-##################################################
-### building the distance matrix #################
     import math
     import pickle
     import numpy as np
@@ -18,9 +16,7 @@ def main_fun(user_features,maxtime,home_latlon):
     #homeurl = '/home/smargs/Dropbox/Push/insight_project/ta_reviews/'
     with open(homeurl+'all_attractions.pickle') as f:
         attraction_names,attraction_urls  = pickle.load(f) 
-        
-    #with open(homeurl+'flickrimages.pickle') as f:
-    #    photourl_dictionary,owner_dictionary = pickle.load(f) 
+         
  
     with open(homeurl+'all_attractions_info_new.pickle') as f:
         attraction_info,attraction_title,attraction_time,attraction_type,attraction_typer,attraction_address,attraction_latlon,attraction_key,attraction_distmat,attraction_opentime,attraction_closetime,attraction_ratings,attraction_review_count,attraction_description,categories_key,categories_dict,catnames = pickle.load(f) 
@@ -29,14 +25,7 @@ def main_fun(user_features,maxtime,home_latlon):
         catnames,categories_dict = pickle.load(f) 
     print catnames
     
-    #homeurl = '/home/smargs/Dropbox/Push/insight_project/ta_reviews/'
-    #with open(homeurl+'all_attractions_new.pickle') as f:
-    #    attraction_names,attraction_urls  = pickle.load(f) 
-    
-    #with open(homeurl+'all_attractions_info_new.pickle') as f:
-    #    attraction_info,attraction_title,attraction_type,attraction_typer,attraction_address,attraction_latlon,attraction_opentime,attraction_closetime,attraction_ratings,attraction_review_count = pickle.load(f) 
-        
-    
+  
     ###################################################
     ## including the visit times ######################
     ## setting all to 60 minutes right now ############
@@ -50,8 +39,6 @@ def main_fun(user_features,maxtime,home_latlon):
     ### user input ####################################    
     maxtime = float(maxtime)*60 # maxtime given in hours
  
-    print user_features
-    print 'blaaaaaaaaaaah'
     user_weights = [0]*len(catnames); user_weights = map(float,user_weights)
     for i,j in enumerate(user_features):
         m = catnames.index(j)
@@ -222,35 +209,16 @@ def main_fun(user_features,maxtime,home_latlon):
                     xx=xx.replace('(',''); xx=xx.replace(')',''); xx=xx.replace(',','')
                     attraction_desc.append(xx) 
     print fin_latlons
-    
-    #import matplotlib.pyplot as plt
-    #for i in range(len(fin_latlons)):
-    #    if i < len(fin_latlons)-1:
-    #        a = fin_latlons[i][0]; b = fin_latlons[i][1]
-    #        c = fin_latlons[i+1][0]; d = fin_latlons[i+1][1]
-    #    else:
-    #        a = fin_latlons[i][0]; b = fin_latlons[i][1]
-    #        c = fin_latlons[0][0]; d = fin_latlons[0][1]
-    #    plt.plot([a,c],[b,d])
-    #
-    #plt.show()   
-    
-    
-    
+  
     
     return mytourfin,attraction_names,fin_latlons,toturl,attraction_desc
-         
-
-#    my_attractions = ['History Museums','Museums,City Tours','Art Galleries','Historic Walking Areas','Walking Tours','Religious Sites',
-#'Art Museums','Architectural Buildings','City Tours','Walking Tours','Nature and Parks',
-#'Historic Sites','Boat Tours and Water Sports']  
+ 
 
 home_latlon = (37.707486, -122.420460); maxtime = 3.5; p = 5;
 user_features = ['history','science']
 mytourfin,attraction_names,fin_latlons,toturl,attraction_desc = main_fun(user_features,maxtime,home_latlon)
 
-#print attraction_names 
-
+ 
 
 import json
 import urllib2

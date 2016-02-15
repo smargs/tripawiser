@@ -1,3 +1,5 @@
+## some addresses can't be accessed using google api so using an alternative method ##
+
 bad_addresses = ['1_5_mile_Coastal_Trail', 'Admission_s_Day_Statue','Alamo_Square', 'All_About_Chinatown_Walking_Tours'
 'Angel_Island_Immigration_Station','Arelious_Walker_Stairway'
 'Art_for_Children_at_the_de_Young_Museum','Balmy_Alley_Murals'

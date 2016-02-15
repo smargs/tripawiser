@@ -1,9 +1,13 @@
 import requests
 from bs4 import BeautifulSoup
-#from data_extraction_attractions_list import data_extraction_attractions_list
 import unicodedata
 import string
 import pickle
+
+
+####################################################################
+## this file scrapes reviews of all attractions in san francisco ###
+####################################################################
 
 ## getting list of attractions ##
 #################################

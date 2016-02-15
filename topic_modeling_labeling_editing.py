@@ -1,3 +1,7 @@
+####################################################################
+## this file cleans the topic model result, labels the topics etc ##
+####################################################################
+
 
 import pickle 
 import nltk 

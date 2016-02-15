@@ -11,10 +11,9 @@
 import numpy as np
 import itertools
 
-######################################################
-## TSP DP to calculate shortest paths which can be ###
-## finished within time maxlen #######################
-## then choosing between the paths based on 
+###########################################################
+## TSP DP to calculate shortest paths which can be ########
+## finished within time maxlen and which maximizes prize ##
 def rating_score(num):
     if float(num) == 5.0:
         ans1 = 5;
@@ -29,10 +28,7 @@ def rating_score(num):
 def optimal_tour(maxlen,dist,attraction_weights,user_weights,attraction_review_num,fin_attraction_ratings):
  
 #########################################################
-## this DOES INCLUDE attraction 0 while finding tours ###
-## maybe this attraction can be specified or the code can 
-## be modified to include different starting points #####
-## the latter will increase complexity of code ##########
+## this code calculates tour starting at attraction 0 ##
  
     def tsp_dp_mod(dist,maxlen):
         all_tours = []; all_tours_len = [];
@@ -60,9 +56,7 @@ def optimal_tour(maxlen,dist,attraction_weights,user_weights,attraction_review_n
     
     
     all_tours,all_tours_len =  tsp_dp_mod(dist,maxlen) 
-    
-
-         
+ 
     
     prize = np.zeros((len(all_tours_len),1))
     for i,j in enumerate(all_tours_len):

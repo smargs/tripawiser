@@ -1,3 +1,7 @@
+####################################################################
+## this file computes a topic model for all attraction reviews #####
+####################################################################
+
 
 import pickle
 from nltk.corpus import words

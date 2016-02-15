@@ -3,6 +3,10 @@ from bs4 import BeautifulSoup
 import requests
 import pickle
 
+####################################################################
+## this file gets list of all attractions in san francisco #########
+####################################################################
+
 def data_extraction_attractions_list():
 
     url_list = ['http://www.tripadvisor.com/Attractions-g60713-Activities-San_Francisco_California.html',
