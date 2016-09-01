@@ -1,5 +1,5 @@
 # tripawiser
-A wise trip planner for San Francisco
+A wise trip planner for San Francisco at www.tripawiser.xyz
 
 Presentation available at https://docs.google.com/presentation/d/13Z9xFqrxtlnzbhiaInLPnXtHKi5vJhmraMufm21uYIk/present?slide=id.p
 
